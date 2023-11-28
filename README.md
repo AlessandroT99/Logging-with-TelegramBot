@@ -1,7 +1,7 @@
-Logging with TelegramBot
-------------------------------
+# Logging with TelegramBot
 Do you ever wanted a method that could let you know news from your long software execution which you cannot physically look at? Here it is your solution! 
 
+------------------------------
 ## What is a Telegram Bot? 
 An artificial user of Telegram which can be programmed to behave in a predefined way. You can distinguish them by the termination "bot" after their name.
 
@@ -12,6 +12,11 @@ Here it is the procedure that you need to do to create successfully your bot:
 * `/newbot`: The creation will begin, you just need to follow the steps which will be told you (if needed look at the [step-by-step guide](https://core.telegram.org/bots/features#creating-a-new-bot))
 * Get your token from the **BotFather** and save it for later
 * Modify eventual preferences of your bot, first `/mybots`, choose your bot, select *Edit Bot* and modify whatever you need.
+
+## Install telepot library
+To let this script work, your will need the library `telepot`, which you can simply install as:
+* [WINDOWS] -> `py -m pip install telepot`
+* [UBUNTU]  -> `pip install telepot`
 
 ## Understand you telegram user ID
 Now that you got you working bot and its token, you have to know which is your telegram user ID in order to sent messages directly to you.
