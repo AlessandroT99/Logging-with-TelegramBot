@@ -20,7 +20,8 @@ To let this script work, your will need the library `telepot`, which you can sim
 
 ## Understand you telegram user ID
 Now that you got you working bot and its token, you have to know which is your telegram user ID in order to sent messages directly to you.
-Open the telegramLoggin.py file and substitute your token into `TOKEN = 'yourtoken'`, now execute the script, your bot will send you a message with your ID, and you will also be able to copy it from the command line.
+Open the telegramLoggin.py file and substitute your token into `TOKEN = 'yourtoken'`, and execute the script.
+Now look for your bot in the telegram search, and start it (if not done automatically, write to it `/start`), your bot will send you a message with your ID, and you will also be able to copy it from the command line.
 
 ## Run your logger
 Substitute your ID into `userName = 0` and you are almost ready to go!
@@ -33,6 +34,10 @@ Just choose your use:
 * Run in MatLab `pyenv(Version="C:\Users\YOUR_USER_NAME\AppData\Local\Programs\Python\Python311\python.exe");`
 * Check the correctness of the installation with running again `pyenv`
 * Call when you want `pyrunfile("YOUR_PATH/telegramLogging.py",TEXT_TO_PRINT)` where *TEXT_TO_PRINT* is your string variable.
+
+#### PYTHON PROCEDURE
+* Uncomment `import YOUR_LIBRARY` and `txt = YOUR_FUNCTION()` substituting your parameters
+* Use this script as base to rewrite it in your own script
 ----------------------------
 ## Have you got any issue?
 Let me know what is the problem! I will fix it and load a new commit.
