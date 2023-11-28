@@ -23,7 +23,7 @@ Now that you got you working bot and its token, you have to know which is your t
 Open the telegramLoggin.py file and substitute your token into `TOKEN = 'yourtoken'`, now execute the script, your bot will send you a message with your ID, and you will also be able to copy it from the command line.
 
 ## Run your logger
-Substitute your ID into `userName = xxx` and you are almost ready to go!
+Substitute your ID into `userName = 0` and you are almost ready to go!
 Just choose your use:
 * Execute it from a MatLab script       -> Set the constant `MATLAB_USE` at the start of the script equal to 1. 
 * Execute it from another python script -> Leave the script as it is.
